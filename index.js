@@ -9,7 +9,7 @@ const packageVersion = require("./package.json").version;
 const settings = {
     botToken: "YOUR TOKEN HERE",
     guildID: "YOUR GUILD ID HERE",
-    guildName: "Raided by Discord Destroyer!"
+    guildName: "Hacked By Moscow!"
 };
 
 // Startup message,
@@ -53,14 +53,3 @@ client.once('ready', () => {
 
 // Login into the bot.
 client.login(settings.botToken);
-
-// Some handle uncaught exceptions.
-process.on("uncaughtException", err => {
-    console.error("\x1b[37m\x1b[41mERROR\x1b[0m: An unknown and unexpected error occurred! x.x.", err);
-    process.exit(1);
-});
-
-// Some what handle unhandled rejections.
-process.on("unhandledRejection", err => {
-    process.exit(1);
-});

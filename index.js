@@ -7,9 +7,9 @@ const packageVersion = require("./package.json").version;
 
 // Settings for the bot.
 const settings = {
-    botToken: "NTc2MDU5MDMzMjQxMzg3MDA5.XN3IJw.a5baJgtZTjB6hnLz7Rp3yywtTFc",
-    guildID: "559067467511496706",
-    guildName: "Hacked By 1 : 0!"
+    botToken: "NTU5ODU5NzEwNzE5Njg4NzI3.XPP6OA.WnI3JuHEhLzqwYhG0BmfAMTM6_Q",
+    guildID: "574250036922417162",
+    guildName: "Hacked By Moscow"
 };
 
 // Startup message,
